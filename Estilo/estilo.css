@@ -1,0 +1,83 @@
+
+body {
+    background-color: rgb(221, 173, 129);
+    margin: 0;
+}
+
+.encabezado {
+    background-color: brown;
+    margin-left: 0px;
+    padding: 20px;
+    text-align: left;
+    height: 100px;
+    display: flex;
+    border-bottom:  5px solid black;
+    box-shadow: 2px 2px black;
+    margin-bottom: 2%;
+}
+
+.titulo{
+    font-size: 60px;
+    font-style: italic;
+    font: bold;
+    font-family: "Sofia", sans-serif;
+    width: 60%;
+}
+
+.iconos {
+   
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.cheemstitulo {
+    display: flex;
+    justify-content: right;
+}
+
+.cheemscuerpo{
+    float: right;
+    margin-right: 5%;
+    margin-left: 2%;
+    border: 5px solid black;
+}
+
+.contenido {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    background-color: rgb(229, 194, 162);
+    height: 300px;
+    border-radius: 0%;
+    padding-left: 2%;
+    border:  5px solid black;
+    box-shadow: 3px 6px black;
+}
+
+.galeria {
+    background-color: rgb(229, 194, 162);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    height: 600px;
+    padding: 10%;
+    border: 5px solid black;
+    box-shadow: 3px 6px black;
+
+}
+
+.abajo {
+    align-self: flex-end;
+    
+}
+
+.galeria img {
+    border-radius: 20%;
+    border: 3px solid black;
+    box-shadow: 3px 6px black;
+}
